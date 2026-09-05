@@ -16,13 +16,16 @@
   <a href="https://www.linkedin.com/in/hcini-moez-9013242aa/"><b>LinkedIn</b></a>
 </p>
 
-## 01 — What I do
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
   <img src="./assets/contributions-dark.svg" width="824" height="150" alt="Hcini Moez's GitHub contribution graph for the last year, one square per day shaded from fewest to most.">
 </picture>
+
+
+## 01 — What I do
+
+
 
 <table>
   <tr>
