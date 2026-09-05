@@ -1,0 +1,36 @@
+name: Refresh contribution graph
+
+# Keeps assets/contributions-*.svg current. Reads GitHub's own public contributions
+# page, so no PAT or API key is needed -- the default GITHUB_TOKEN only pushes the result.
+on:
+  schedule:
+    - cron: "17 3 * * *"      # daily, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-graph
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render graph
+        run: python3 tools/contributions.py --user "${{ github.repository_owner }}" --out assets
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions-dark.svg assets/contributions-light.svg
+          if git diff --staged --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore: refresh contribution graph"
+            git push
+          fi
