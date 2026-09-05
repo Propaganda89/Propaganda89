@@ -7,13 +7,13 @@
 <p align="center">Full-stack software engineer in Tunisia, taking products from the first user flow to production — interface, API, data, and the AI and realtime services in between.</p>
 
 <p align="center">
-  <a href="https://www.hcinimoez.com"><b>Portfolio</b></a>
+  <a href="https://www.hcinimoez.com"><img src="./assets/icons/portfolio.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;<b>Portfolio</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://cal.com/hcini-moez-hcj5xe/45-minutes-meeting"><b>Book a call</b></a>
+  <a href="https://cal.com/hcini-moez-hcj5xe/45-minutes-meeting"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/cal-dark.svg"><img src="./assets/icons/cal-light.svg" width="46" height="10" align="absmiddle" alt=""></picture>&nbsp;<b>Book a call</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:book@hcinimoez.com"><b>Email</b></a>
+  <a href="mailto:book@hcinimoez.com"><img src="./assets/icons/email.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;<b>Email</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/hcini-moez-9013242aa/"><b>LinkedIn</b></a>
+  <a href="https://www.linkedin.com/in/hcini-moez-9013242aa/"><img src="./assets/icons/linkedin.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;<b>LinkedIn</b></a>
 </p>
 
 <picture>
@@ -95,11 +95,11 @@ Understand the problem → Design the flow → Engineer the system → Ship → 
 <p align="center">Open to ambitious <b>full-stack</b>, <b>Flutter</b>, and <b>product engineering</b> work — especially products that pair thoughtful UX with technically interesting systems.</p>
 
 <p align="center">
-  <a href="https://www.hcinimoez.com"><b>Portfolio</b></a>
+  <a href="https://www.hcinimoez.com"><img src="./assets/icons/portfolio.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;<b>Portfolio</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://cal.com/hcini-moez-hcj5xe/45-minutes-meeting"><b>Book a call</b></a>
+  <a href="https://cal.com/hcini-moez-hcj5xe/45-minutes-meeting"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/cal-dark.svg"><img src="./assets/icons/cal-light.svg" width="46" height="10" align="absmiddle" alt=""></picture>&nbsp;<b>Book a call</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:book@hcinimoez.com"><b>Email</b></a>
+  <a href="mailto:book@hcinimoez.com"><img src="./assets/icons/email.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;<b>Email</b></a>
 </p>
 
 <p align="center"><sub>Tunisia · Building since 2018 · Open to work</sub></p>
