@@ -16,45 +16,7 @@
   <a href="https://www.linkedin.com/in/hcini-moez-9013242aa/"><b>LinkedIn</b></a>
 </p>
 
-## 01 — Selected work
-
-<table>
-  <tr>
-    <td width="416" valign="top">
-      <h3><a href="https://www.traidmatch.com/">TraidMatch ↗</a></h3>
-      <p><b>Vehicle trading, redesigned.</b></p>
-      <p>Owners and verified dealers discover compatible vehicles, match, and negotiate trade offers.</p>
-      <p><code>Flutter</code> <code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Firebase</code></p>
-    </td>
-    <td width="416" valign="top">
-      <h3><a href="https://www.koulpass.com/">Koulpass ↗</a></h3>
-      <p><b>Membership perks for everyday Tunisia.</b></p>
-      <p>A consumer and partner ecosystem for discovering and claiming exclusive offers across food, retail, and lifestyle.</p>
-      <p><code>Flutter</code> <code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Firebase</code></p>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="416" valign="top">
-      <h3><a href="https://www.uphire.io/">UpHire ↗</a></h3>
-      <p><b>An AI career copilot.</b></p>
-      <p>ATS analysis, CV improvement, tailored cover letters, and realistic interview practice.</p>
-      <p><code>Flutter</code> <code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Firebase</code> <code>Gemini AI</code></p>
-    </td>
-    <td width="416" valign="top">
-      <h3><a href="https://tellostory.com/">Tello ↗</a></h3>
-      <p><b>Stories that grow with every child.</b></p>
-      <p>Personalised, interactive stories with branching adventures and audio.</p>
-      <p><code>Flutter</code> <code>Go</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Firebase</code> <code>Gemini AI</code></p>
-    </td>
-  </tr>
-</table>
-
-<sub>Most of my production work lives in private or client-owned repositories. The four products above are the clearest view of what I design, engineer, and ship.</sub>
-
-## 02 — What I do
+## 01 — What I do
 
 <table>
   <tr>
@@ -82,25 +44,27 @@
   </tr>
 </table>
 
-**Interface** &nbsp;`Flutter`&nbsp; `Dart`&nbsp; `React`&nbsp; `Next.js`&nbsp; `TypeScript`&nbsp; `JavaScript`&nbsp; `Tailwind`
+<p>
+  <b>Interface</b><br />
+  <img src="./assets/icons/flutter.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Flutter&nbsp;&nbsp;&nbsp; <img src="./assets/icons/dart.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Dart&nbsp;&nbsp;&nbsp; <img src="./assets/icons/react.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;React&nbsp;&nbsp;&nbsp; <img src="./assets/icons/nextjs.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Next.js&nbsp;&nbsp;&nbsp; <img src="./assets/icons/typescript.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;TypeScript&nbsp;&nbsp;&nbsp; <img src="./assets/icons/javascript.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;JavaScript&nbsp;&nbsp;&nbsp; <img src="./assets/icons/tailwind.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Tailwind
+</p>
 
-**Services & data** &nbsp;`Go`&nbsp; `Node.js`&nbsp; `Supabase`&nbsp; `PostgreSQL`&nbsp; `Firebase`&nbsp; `REST APIs`&nbsp; `Realtime`
+<p>
+  <b>Services & data</b><br />
+  <img src="./assets/icons/go.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Go&nbsp;&nbsp;&nbsp; <img src="./assets/icons/nodejs.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Node.js&nbsp;&nbsp;&nbsp; <img src="./assets/icons/supabase.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Supabase&nbsp;&nbsp;&nbsp; <img src="./assets/icons/postgresql.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;PostgreSQL&nbsp;&nbsp;&nbsp; <img src="./assets/icons/firebase.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Firebase&nbsp;&nbsp;&nbsp; <img src="./assets/icons/rest.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;REST&nbsp;APIs&nbsp;&nbsp;&nbsp; <img src="./assets/icons/realtime.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Realtime
+</p>
 
-**AI & automation** &nbsp;`Gemini AI`&nbsp; `n8n`
+<p>
+  <b>AI & automation</b><br />
+  <img src="./assets/icons/gemini.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Gemini&nbsp;AI&nbsp;&nbsp;&nbsp; <img src="./assets/icons/n8n.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;n8n
+</p>
 
-**Delivery** &nbsp;`Docker`&nbsp; `Git`&nbsp; `GitHub`&nbsp; `Vercel`&nbsp; `Figma`&nbsp; `Linux`
+<p>
+  <b>Delivery</b><br />
+  <img src="./assets/icons/docker.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Docker&nbsp;&nbsp;&nbsp; <img src="./assets/icons/git.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Git&nbsp;&nbsp;&nbsp; <img src="./assets/icons/github.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;GitHub&nbsp;&nbsp;&nbsp; <img src="./assets/icons/vercel.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Vercel&nbsp;&nbsp;&nbsp; <img src="./assets/icons/figma.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Figma&nbsp;&nbsp;&nbsp; <img src="./assets/icons/linux.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Linux
+</p>
 
-## 03 — Experience
-
-| Period | Team | Role |
-| :-- | :-- | :-- |
-| **Nov 2025 — Present** | **TEKBH** · La Marsa, Tunisia | Full-Stack Software Engineer |
-| **Nov 2023 — Jul 2025** | **Sandlist AI** · On-site | Mobile Developer |
-| **2018 — Present** | **Independent** · Remote | Freelance Software & Product Developer |
-
-<sub>21+ apps built · 1,000+ screens crafted · 2,000+ flows designed · shipping across web, iOS, and Android.</sub>
-
-## 04 — How I build
+## 02 — How I build
 
 ```text
 Understand the problem → Design the flow → Engineer the system → Ship → Learn → Improve

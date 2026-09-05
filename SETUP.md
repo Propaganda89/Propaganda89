@@ -16,6 +16,7 @@ when it lives in a public repository with that exact name.
 | `assets/hero-dark.svg` | Masthead shown on GitHub's dark theme |
 | `assets/hero-light.svg` | Masthead shown on GitHub's light theme |
 | `assets/logo.png` | Source logo; also the signature mark above the closing links |
+| `assets/icons/*.svg` | 22 monochrome stack icons used in "What I do" |
 
 The README references these with relative paths, so keep the folder structure unchanged.
 
@@ -35,7 +36,40 @@ Two things make the SVGs safe to serve from GitHub:
 - **The HM monogram is a vector trace of `logo.png`,** not an embedded raster. A
   `data:` URI inside a raw-served SVG is blocked by the same policy.
 
+## The stack icons
+
+`assets/icons/` holds 22 single-colour glyphs. Twenty are [Simple Icons](https://simpleicons.org)
+(CC0-1.0, public domain); `rest.svg` and `realtime.svg` are drawn here because REST and realtime
+are concepts, not brands.
+
+They are all one colour, `#757B71`, chosen by maximising the *worse* of its two contrast ratios:
+it lands at **4.35:1 against both** `#0d1117` and `#ffffff`. That is why a single set of files
+works on both themes with no `<picture>` swapping and no risk of an icon washing out.
+
+In the README each icon is written as:
+
+```html
+<img src="./assets/icons/flutter.svg" width="18" height="18" align="absmiddle" alt="">&nbsp;Flutter
+```
+
+`align="absmiddle"` is doing real work — GitHub strips `style`, so it is the only way to centre an
+inline image against its text. Without it the glyph sits on the baseline and floats above the
+words. `alt=""` is deliberate: the technology name follows as text, so announcing the icon too
+would just repeat it for screen readers.
+
+At narrow widths a glyph can occasionally wrap away from its label. Browsers always allow a line
+break between an inline image and adjacent text, and `white-space: nowrap` needs CSS that GitHub
+strips, so this is accepted rather than fixed.
+
 ## Editing the masthead
+
+The masthead is set in **Outfit** with the role line in **Google Sans Code**. Google Sans itself
+is proprietary — it is not on Google Fonts and cannot be redistributed — so Outfit stands in for
+it as the closest open geometric match. Google Sans Code is genuinely part of the Google Sans
+family and is open-licensed (OFL).
+
+Note that this applies to the *images* only. The README's body text is rendered by GitHub in its
+own system font stack, and no custom font can be applied to it.
 
 Because the type is outlined, the words in the masthead are vector shapes, not editable text —
 changing "HCINI MOEZ" or the role line means regenerating both SVGs from the source artwork
